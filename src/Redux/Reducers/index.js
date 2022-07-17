@@ -1,0 +1,9 @@
+//Used to combine multiple reducers
+import { combineReducers } from "redux";
+import { productReducer } from "./productReducer";
+
+const reducers = combineReducers ({
+  allproducts: productReducer,
+});
+
+export default reducers;
