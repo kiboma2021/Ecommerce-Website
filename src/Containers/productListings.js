@@ -16,7 +16,7 @@ const ProductListing = () => {
   console.log("products:", products);
   useEffect(() => {
     fetchProducts();
-  }, []);
+  },[]);
   return (
     <div>
       <ProductComponent />

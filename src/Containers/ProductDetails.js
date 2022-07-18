@@ -22,7 +22,7 @@ const ProductDetails = () => {
     return () => {
       dispatch(removeSelectedProduct());
     }
-  }, [productid]);
+  },[productid]);
   return (
     <div>
       {Object.keys(product).length === 0 ? (
