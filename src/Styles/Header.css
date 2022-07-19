@@ -7,6 +7,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .upper-header {
   display: flex;
   background-color: black;
@@ -83,6 +87,31 @@ ul {
 }
 
 .search-item {
+  width: 60%;
   background-color: yellow;
-  width: 50rem;
+}
+
+.search-bar {
+  width: 60%;
+  height: 2.5rem;
+  border-radius: 8px;
+  padding: 0 2rem;
+}
+
+button {
+  width: 15%;
+  height: 2.5rem;
+  border-radius: 8px;
+  margin-left: 2rem;
+  color: white;
+  font-weight: bold;
+  background-color: orange;
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  width: 20%;
 }

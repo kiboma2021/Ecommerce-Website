@@ -15,16 +15,15 @@ const Header = () => {
           <h1>Soko Yetu</h1>
           <p>Kwa bei nafuu</p>
         </div>
-        <div>
-          <form className="search-item">
-            <input type="search" placeholder="Search for ..." />
+        <div className="search-item">
+          <form>
+            <input type="search" className="search-bar" placeholder="Search for ..." />
             <button type="submit">Search</button>
           </form>
         </div>
-        <ul className="myLinks">
-          <li>Acount</li>
-          <li>Help</li>
-          <li>Cart</li>
+        <ul className="header-links">
+          <li><a href="/">Cart</a></li>          
+          <li><a href="/">My Acount</a></li>
         </ul>
       </div>
     </div>
